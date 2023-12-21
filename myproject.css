@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,200;0,500;0,600;0,700;1,400;1,800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root{
+   
+}
+body{
+  background-color: #9f2524;
+}
+header{
+    background-color: #a88f56;
+    width: 100%;
+    position: fixed;
+    z-index: 2000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+  
+}
+.logo{
+ text-decoration: none;
+ color: #fbfcf6;
+ text-transform: uppercase;
+ font-weight: 700;
+ font-size: 1.8em;
+}
+.navigation a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+.navigation a:hover{
+  color: #b7feff;
+}
+section{
+  padding: 100px 200px;
+}
+.main{
+  width: 100%;
+  min-height: 100vb;
+  display: flex;
+  align-items: center;
+  background-image: url(wallpaperflare.com_wallpaper\ \(10\).jpg);
+  background-size: cover;
+  background-position: center;
+}
+.main h2{
+  color: #9f2524;
+  font-size: 1.4em;
+  font-weight:500 ;
+}
+.main h2 span{
+  display: inline-block;
+  margin-top: 10px;
+  color: #a88f56;
+  font-size:3em; 
+  font-weight: 600;
+  
+}
+
+.main h3{
+  color: #9f2524;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.main .main-btn{
+  text-decoration: none;
+  color: #a88f56;
+  border-radius: 15px ;
+  border: solid 0 ;
+  background-color: #9f2524;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  margin-bottom: 40px;
+  transition: 0.7s ;
+}
+.main .main-btn:hover{
+  background-color: #b7feff;
+  color: #9f2524;
+ transform: scale(1.1);
+}
+.main .social-icon a{
+  color: #a88f56;
+  padding-right: 30px;
+  font-size: 1.7em;
+  position: relative;
+  top: 230px;
+  right: 485px;
+
+}
+.main .social-icon a:hover{
+color: #b7feff;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  color: #a88f56;
+  font-size: 2.2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.card{
+  background-color: #9f2524;
+  color: #a88f56;
+  width: 21.25em;
+ box-shadow: 0 10px 30px;
+ border-radius: 10px;
+ padding: 25px;
+ margin: 15px;
+ transition: 0.5s;
+}
+.card:hover{
+  transform: scale(1.1);
+  color: #b7feff;
+}
+.content .card .icon{
+  font-size: 70px;
+  text-align: center;
+}
+.info{
+  text-align: center;
+}
+.info h3{
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+  display: flex;
+}
+.project{
+  background-color: #000;
+}
+.project .content{
+  margin-top: 30px;
+}
+.project-card {
+  background-color: #9f2524;
+  color: #a88f56;
+border: 1px solid #9f2524;
+min-height: 14em;
+width: 23em;
+overflow: hidden;
+border-radius: 10px;
+margin: 20px;
+transition: 0.5s;
+
+}
+.project-card:hover{
+  transform: scale(1.1);
+  background-color: #b7feff;
+  color: #9f2524;
+  border-color:#b7feff ;
+}
+.project-card:hover .project-img{
+  opacity: 0.9;
+}
+.project-img img{
+ width: 100%;
+}
+.project-info{
+  padding: 1em;
+
+}
+.project-category{
+  font-size: 0.8em;
+  
+}
+.project-title{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.more-details{
+  text-decoration: none;
+  color: #b7feff;
+}
+
+.project-card:hover .more-details{
+  color: #000;
+ 
+}
+.contect .icon{
+  font-size: 4.5em;
+}
+.contect .info h3{
+  display: flex;
+  justify-content: center;
+
+}
+footer{
+  padding: 30px;
+  background-color: #000;
+
+}
+footer h3{
+  text-align: center;
+  
+}
+footer .footer1{
+  color: #9f2524;
+}
+footer .footer2{
+  color: #a88f56;
+}
+@media(max-width:1023px){
+  header{
+    padding: 12px 10px;
+    font-size: 10px;
+    
+    
+  }
+  .navigation a{
+    padding-left: 10px;
+  }
+  .title{
+    font-size: 1.8em;
+  }
+  section{
+    padding: 80px 20px;
+  }
+  .main h2{
+    font-size: 1em;
+  }
+  .main h3{
+    font-size: 1.6em;
+  }
+  .content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+  }
+  
+  .main .social-icon a{
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+ 
+}
+@media(max-width:641){
+  body{
+    font-size: 12px;
+  }
+  .main h2{
+    font-size: 0.8em;
+  }
+}
+@media(max-width:300px){
+  body{ font-size: 10px;
+  }
+}
